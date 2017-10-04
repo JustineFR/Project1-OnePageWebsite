@@ -1,0 +1,227 @@
+
+body {
+	margin: 0;
+	background: url("../images/pineapple-supply-co-142104.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+/* NAV *******************************/
+
+
+nav {
+	background-color: rgba(255,255,255,0.7);
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 20px 25px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #333D3F;
+	letter-spacing: 2px;
+}
+
+nav > ul > li > a:hover { 
+	border-bottom: 2px solid #F85A27;
+	text-decoration: none; 
+}
+
+
+#menu {
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	border: none;
+	background: none;
+	font-size: 22px;
+	color: #F85A27;
+	cursor: pointer;
+
+}
+
+
+/* Main Picture ***********************/
+
+.mainpicture {
+	background: url("../images/pineapple-supply-co-142104.jpg");
+	height: 870px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.title {
+	text-align: center;
+	padding-top: 400px;
+	margin: 0;
+	color: #242628;
+	font-family: 'Poiret One', cursive;
+	font-size: 44px;
+}
+
+.letter {
+	color: #CD402A;
+}
+
+.current {
+	font-weight: 600;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+
+
+/* Second Part ******************/
+
+
+h2 {
+	margin-top: 0;
+	color: #CD402A;
+ 	font-family: 'Poiret One', cursive;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	padding-top: 90px;
+ 	padding-bottom: 30px;
+}
+
+
+
+
+
+
+/* About ******************/
+
+
+#about {
+	min-height: 600px;
+	background: rgba(240, 235, 232,0.97);
+}
+
+
+.photo {
+	border-radius: 50%;
+	text-align: center;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 150%;
+	text-align: justify;
+	color: #3b4442;
+}
+
+
+#bio div {
+	text-align: center;
+}
+
+
+
+/* Projects ******************/
+
+
+#projects {
+	min-height: 1100px;
+	background:rgba(230, 213, 201,0.9);
+}
+
+#portfolio div {
+	min-height: 200px;
+}
+
+.container {
+	padding-bottom: 30px;
+}
+
+.thumbnail {
+	max-width: 100%;
+	transition: all 1s; /* for photo animation */
+}
+
+.thumbnail:hover {
+	transform: scale(1.1);  /* for photo animation */
+}
+
+.row div {
+	padding-bottom: 20px;
+}
+
+
+
+/* contact ******************/
+
+
+#contact {
+	min-height: 600px;
+	background: rgba(240, 235, 232,0.97);
+}
+
+#icons div {
+	min-height: 100px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/* Footer ******************/
+
+footer {
+	height: 100px;
+	background-color: #9ca8a4;
+}
+
+
+
+
+
+
+/* Media Queries ****************/
+
+
+@media (max-width: 720px) {
+	nav ul {
+		display: none;
+	}
+	nav li {
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	} 
+	#menu {
+		display: block;
+	}
+
+	
+}
+
+
+
+
+
